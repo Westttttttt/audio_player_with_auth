@@ -137,14 +137,11 @@ header {
    color: rgb(13, 228, 13);
 }
 
-.souce-code-link-2 {
+footer {
    font-size: 12px;
-   position: absolute;
-   right: 30px;
-   bottom: 30px;
    font-weight: bold;
-}
-
-.souce-code-link-2:hover {
-   color: rgb(13, 228, 13);
+   letter-spacing: 1px;
+   position: absolute;
+   bottom: 30px;
+   right: 30px;
 }
