@@ -56,7 +56,7 @@ label {
 }
 
 form {
-   border: 1px solid rgba(255, 255, 255, 0.177);
+   border: 1px solid rgba(255, 255, 255, 0.224);
    padding: 60px 50px;
 }
 
@@ -76,19 +76,6 @@ audio {
    width: 300px;
    padding: 30px 40px;
    border: 1px solid rgba(255, 255, 255, 0.235);
-}
-
-a {
-   text-decoration: none;
-   font-size: 20px;
-   font-weight: bold;
-   position: absolute;
-   top: 30px;
-   left: 30px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 10px;
 }
 
 span:hover {
@@ -117,4 +104,45 @@ header {
    justify-content: space-between;
    width: 100%;
    z-index: 200;
+}
+
+.container a {
+}
+
+.back-home {
+   justify-self: start;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.souce-code-link {
+   font-size: 12px;
+   position: absolute;
+   right: 30px;
+   top: 30px;
+   font-weight: bold;
+}
+
+.souce-code-link:hover {
+   color: rgb(13, 228, 13);
+}
+
+.souce-code-link-2 {
+   font-size: 12px;
+   position: absolute;
+   right: 30px;
+   bottom: 30px;
+   font-weight: bold;
+}
+
+.souce-code-link-2:hover {
+   color: rgb(13, 228, 13);
 }
