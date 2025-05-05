@@ -5,6 +5,11 @@
    font-family: Consolas;
 }
 
+@font-face {
+   font-family: "Consolas";
+   src: url("./assets/font/consolass.ttf") format("truetype");
+}
+
 body {
    box-sizing: border-box;
    background-color: black;
@@ -104,9 +109,6 @@ header {
    justify-content: space-between;
    width: 100%;
    z-index: 200;
-}
-
-.container a {
 }
 
 .back-home {
